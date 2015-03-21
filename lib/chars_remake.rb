@@ -1,5 +1,10 @@
 class String
   def chars_remake
-    0
+    puts self
+    if self.length == 0
+      []
+    else
+      [self]
+    end
   end
 end
